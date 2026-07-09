@@ -17,5 +17,5 @@ http://localhost:8000/?hostname=PC1
 ## Запуск тестов
 
 ```bash
-docker-compose exec fastapi-app pytest app/test.py -v
+docker compose exec fastapi-app pytest app/test.py -v
 ```
